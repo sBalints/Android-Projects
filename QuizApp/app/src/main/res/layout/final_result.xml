@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizQuestionActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/backgroundforquizapp"
+    android:gravity="center_horizontal"
+    >
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:text="Result"
+            />
+
+        <ImageView
+            android:id="@+id/iv_trophy"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:contentDescription="Your trophy"
+            android:src="@drawable/ic_trophy"
+            />
+        <TextView
+            android:id="@+id/tv_congratulations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:text="Hey, Congratulations!"
+            />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            tools:text="Denis"
+            />
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#918686"
+            android:padding="15dp"
+            tools:text="Your score is 0 out of 9"
+            />
+            <Button
+                android:id="@+id/btn_finish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:backgroundTint="@android:color/white"
+                android:textStyle="bold"
+                android:textColor="@color/design_default_color_primary"
+                android:text="FINISH"
+
+                />
+</LinearLayout>
